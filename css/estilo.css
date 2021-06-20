@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-color: teal;
 }
 
 ul {
@@ -11,6 +12,7 @@ ul {
   position: fixed;
   overflow: auto;
   border: 1px solid #555;
+  margin-left: 600px;
 }
 
 li{
@@ -33,4 +35,11 @@ li a.activo{
 li a:hover:not(activo) {
   background-color: #555;
   color: whitesss;
+}
+h1{
+  text-align: center;
+  border: none;
+  background-color: black;
+  opacity: 60%;
+  color: white;
 }
